@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+@import "Newindex";
+@import "Newvariabls";
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  text-decoration: none;
+  color:$badyColorblack
+}
+
+.container {
+  width: 1140px;
+  min-height: 100%;
+  margin: 0 auto;
+}
+
+.meinblock__titel {
+  margin-top: 85px;
+  margin-bottom: 20px;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: $badyColorblack;
+  display: flex;
+  justify-content: space-between;
+}
+
+.meinblock__titel-and {
+  list-style-type: none;
+  display: flex;
+}
+
+.meinblock__titel-and li {
+  padding-left: 70px;
+  width: 85px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.meinblock__product {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+       &-Shirt {
+       display: flex;
+         &-foto {
+           margin-right: 20px;
+                  }
+       }
+     }
+
+.meinblock__product-Shirt-foto {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
+  background-position: center;
+  border: none;
+  outline: 1px solid $badyColorwhite;
+}
+
+.meinblock__product-Shirt-foto:hover {
+  outline-color: $buttonHovercolor;
+}
+ .MangoT-shirt {
+  margin-bottom: 25px;
+  margin-top: 25px;
+  font-size: 13px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: $badyColorblack;
+ }
+
+ .MangoT-shirt-show {
+   display: flex;
+   text-align: center;
+ }
+
+ .Color-Red {
+   white-space: nowrap;
+   font-size: 13px;
+   line-height: 20px;
+   font-weight: 400;
+   color: #575757;
+ }
+
+ .Color-Size {
+   white-space: nowrap;
+   font-size: 13px;
+   line-height: 20px;
+   font-weight: 300;
+   color: #6f6e6e;
+   padding-left: 3px;
+ }
+
+ .meinblock__product-details {
+   font-size: 13px;
+   line-height: 20px;
+   font-weight: 400;
+        & li {
+       color: #656565;
+        }
+ }
+.input-Quantity {
+  width: 54px;
+  height: 30px;
+  text-align: center;
+  border-bottom: 1px solid $badyColorsearch;
+}
+ .delete {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background: #6f6e6e;
+  color: $badyColorwhite;
+}
+
+ .meinblock__shopping {
+   margin-top: 45px;
+   display: flex;
+   justify-content: space-between;
+   text-align: center;
+   font-size: 14px;
+   font-weight: 700;
+   text-transform: uppercase;
+   color: #4a4a4a;
+     &-clear {
+       height: 50px;
+       width: 235px;
+       border: 1px solid $badyColorsearch;
+       background-color: $badyColorwhite;
+   }
+     &-continue {
+       height: 50px;
+       width: 225px;
+       border: 1px solid $badyColorsearch;
+       background-color: $badyColorwhite;
+     }
+ }
+ .meinblock__checkout {
+   margin-top: 62px;
+   display: flex;
+   justify-content: space-between;
+
+   &-name {
+     font-size: 16px;
+     line-height: 1.2;
+     font-weight: 700;
+     text-transform: uppercase;
+     color: $badyColorblack;
+   }
+
+   &-adress {
+     margin-top: 20px;
+     height: 45px;
+     width: 355px;
+     background-color: #ffffff;
+     border: 1px solid #eaeaea;
+     font-size: 13px;
+     font-weight: 300;
+     color: #b1b1b1;
+     padding-left: 10px;
+   }
+
+   &-quote {
+     margin-top: 20px;
+     height: 35px;
+     width: 100px;
+     background-color: $badyColorwhite;
+     border: 1px solid #eaeaea;
+     font-size: 11px;
+     font-weight: 700;
+     text-transform: uppercase;
+     color: #4a4a4a;
+     padding-left: 10px;
+   }
+
+   &-enter {
+     line-height: 25px;
+     font-size: 14px;
+     font-weight: 300;
+     color: #000000;
+   }
+
+   &-apply {
+     margin-top: 25px;
+     height: 35px;
+     width: 118px;
+     background-color: $badyColorwhite;
+     padding-left: 10px;
+     font-size: 11px;
+     font-weight: 700;
+     text-transform: uppercase;
+     color: $badyColorsearchgrey;
+     border: 1px solid #eaeaea;
+   }
+ }
+
+ .meinblock_checkout-bill {
+   height: 214px;
+   width: 360px;
+   background-color: #f5f3f3;
+   flex-direction: column;
+   flex-basis: 35px;
+   padding: 45px;
+   line-height: 35px;
+   text-align: right;
+
+   &-total {
+     font-size: 11px;
+     font-weight: 400;
+     text-transform: uppercase;
+     color: $badyColorsearchgrey;
+     
+   }
+
+   &-grandtotal {
+     font-size: 16px;
+     font-weight: 700;
+     text-transform: uppercase;
+   }
+
+   &-grandtotal span {
+     color: $badyColorpink;
+   }
+ }
+
+ .meinblock__checkout-buy {
+ margin-top: 15px;
+   height: 50px;
+   width: 273px;
+   background-color: $badyColorpink;
+   font-size: 16px;
+   font-weight: 700;
+   text-transform: uppercase;
+   color: $badyColorwhite;
+   text-align: center;
+   border: none;
+   justify-content: space-between;
+
+ }
+
+

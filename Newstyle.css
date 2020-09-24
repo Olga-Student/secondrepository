@@ -1,0 +1,571 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+.subscribeBlock {
+  margin: 0 auto;
+  margin-top: 98px;
+  width: 1600px;
+  min-height: 436px;
+  background: url(../Blockslider/hill.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
+  background-position: center;
+  display: flex; }
+
+.subscribeBlock__Burhan {
+  padding-top: 110px;
+  max-width: 50%;
+  display: flex; }
+
+.Burhan-hello-foto {
+  margin-right: 25px;
+  margin-left: 230px; }
+
+.Burhan-hello-vestibulym {
+  width: 386px; }
+
+.Burhan-hello-vestibulym p {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  font-style: italic;
+  color: #222222; }
+
+.Burhan-hello-vestibulym H3 {
+  padding-top: 20px;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #f16d7f; }
+
+.Burhan-hello-vestibulym H2 {
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: 300;
+  color: #222222; }
+
+.Burhan-hello-miniblock {
+  display: flex;
+  padding-top: 40px; }
+
+.miniblock {
+  width: 38px;
+  height: 4px;
+  background-color: #a4a4a4;
+  margin-right: 10px; }
+
+.miniblock-pink {
+  width: 38px;
+  height: 4px;
+  background-color: #f16d7f;
+  margin-right: 10px; }
+
+.subscribeBlock__Email {
+  width: 50%;
+  padding-top: 110px;
+  padding-right: 230px; }
+
+.subscribeBlock__Email h4 {
+  font-size: 24px;
+  line-height: 54px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  color: #222222; }
+
+.subscribeBlock__Email h3 {
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: none;
+  text-align: center; }
+
+.buttonmail {
+  text-align: center;
+  margin-top: 35px; }
+
+.mail {
+  height: 46px;
+  width: 280px;
+  padding-left: 30px;
+  background-color: #e1e1e1;
+  border-radius: 23px 0 0 23px;
+  font-size: 14px;
+  line-height: 54px;
+  font-weight: 400;
+  color: #222224;
+  border: none;
+  outline: none;
+  overflow: hidden; }
+
+.subscribe {
+  height: 46px;
+  width: 104px;
+  border: none;
+  background-color: #f16d7f;
+  border-radius: 0 23px 23px 0;
+  font-size: 14px;
+  line-height: 54px;
+  font-weight: 400;
+  color: #ffffff;
+  overflow: hidden;
+  outline: none; }
+
+.subscribe:hover {
+  color: black; }
+
+.footerBlock {
+  height: 540px; }
+
+.footerBlock-brand {
+  height: 461px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 125px; }
+
+.footerBlock__logocopy {
+  width: 427px; }
+
+.footerBlock__logocopy a {
+  text-decoration: none;
+  font-size: 27px;
+  line-height: 32px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #222222; }
+
+.footerBlock__logocopy a span {
+  font-weight: 900;
+  color: #f16d7f;
+  text-decoration: none; }
+
+.footerBlock__logocopy p {
+  font-size: 14px;
+  line-height: 15px;
+  font-weight: 300;
+  color: #898989;
+  padding-top: 25px; }
+
+.footerBlock-menupink {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #f16d7f; }
+
+.footerBlock-menu {
+  font-size: 16px;
+  font-weight: 400;
+  color: #898989;
+  line-height: 42px; }
+
+.footerBlock-menu:hover {
+  color: black; }
+
+.footerBlock__copyright {
+  margin: 0 auto;
+  height: 79px;
+  width: 1600px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #e6e6e6; }
+
+.footerBlock__copyright-allright {
+  padding-left: 230px;
+  font-size: 16px;
+  line-height: 42px;
+  font-weight: 400;
+  color: #898989; }
+
+.footerBlock__copyright-icon {
+  display: flex;
+  padding-right: 230px; }
+
+.icon {
+  height: 32px;
+  width: 32px;
+  margin-left: 3px;
+  border: none;
+  background-color: #ffffff;
+  text-align: center;
+  align-items: center;
+  vertical-align: center; }
+
+.icon i:hover {
+  color: black; }
+
+.icon i {
+  font-size: 16px;
+  line-height: 42px;
+  font-weight: 400;
+  color: #b2b2b2; }
+
+.icon-twitter i {
+  font-size: 16px;
+  line-height: 42px;
+  font-weight: 400;
+  letter-spacing: 0.025em;
+  color: #f7f7f8;
+  background-color: #f16d7f;
+  height: 32px;
+  width: 32px; }
+
+.header {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+.header-left {
+  display: flex; }
+
+.header .__logo {
+  font-size: 27px;
+  line-height: 32px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #222222;
+  text-decoration: none; }
+
+.header .__logo span {
+  color: #f16d7f;
+  margin-right: 35px; }
+
+.header .__search {
+  align-items: center;
+  overflow: hidden;
+  border: 1px solid #e6e6e6;
+  border-radius: 3px;
+  height: 38px; }
+
+.search__browse {
+  font-size: 14px;
+  line-height: 32px;
+  font-weight: 300; }
+
+.search__browse i {
+  Text: fa-caret-down;
+  font-family: FontAwesome;
+  font-size: 14px;
+  line-height: 32px;
+  font-weight: 400;
+  color: #838383;
+  text-align: center; }
+
+.header .__search input {
+  height: inherit;
+  outline: none;
+  overflow: hidden;
+  border: none;
+  border-left: 1px solid #e6e6e6;
+  border-right: 1px solid #e6e6e6;
+  font-size: 14px;
+  line-height: 32px;
+  font-weight: 300;
+  color: #a4a4a4; }
+
+.buttonsearch {
+  Text: fa-search;
+  font-family: FontAwesome;
+  font-size: 14px;
+  line-height: 32px;
+  font-weight: 400;
+  color: #a4a4a4;
+  background: none;
+  border: none; }
+
+.buttonsearch i :hover {
+  color: black; }
+
+.cart {
+  width: 32px;
+  height: 29px;
+  text-align: center; }
+
+.cart:hover {
+  color: black; }
+
+.header .Myaccount {
+  margin-left: 20px;
+  border: none;
+  width: 130px;
+  height: 38px;
+  background-color: #f16d7f;
+  font-size: 15px;
+  line-height: 32px;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: center; }
+
+.header .Myaccount:hover {
+  color: black; }
+
+.header .Myaccount i {
+  Text: fa-caret-down;
+  font-family: FontAwesome;
+  font-size: 14px;
+  line-height: 32px;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: center; }
+
+.Myaccount i:hover {
+  color: black; }
+
+.header-line {
+  border-bottom: 1px solid #e6e6e6; }
+
+.TopNav {
+  min-height: 51px; }
+
+.TopNav > .menu {
+  padding-top: 20px;
+  display: flex;
+  text-transform: uppercase;
+  list-style-type: none;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 700; }
+
+.TopNav > .menu > li:not(:last-child) {
+  margin-right: 48px; }
+
+.menu li:hover {
+  color: black; }
+
+.header__button {
+  height: 148px;
+  background-color: #f8f3f4; }
+
+.header__new {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.header__new-arrivals {
+  font-size: 24px;
+  line-height: 20px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #f16d7f; }
+
+.header__new-navi {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #838383; }
+
+.header__new-navi:hover {
+  color: #570813; }
+
+.header__new-navi-pink {
+  font-weight: 700;
+  color: #f16d7f; }
+
+.header__new-navi-pink:hover {
+  color: black; }
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  text-decoration: none;
+  color: #222222; }
+
+.container {
+  width: 1140px;
+  min-height: 100%;
+  margin: 0 auto; }
+
+.meinblock__titel {
+  margin-top: 85px;
+  margin-bottom: 20px;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #222222;
+  display: flex;
+  justify-content: space-between; }
+
+.meinblock__titel-and {
+  list-style-type: none;
+  display: flex; }
+
+.meinblock__titel-and li {
+  padding-left: 70px;
+  width: 85px;
+  text-align: center;
+  text-transform: uppercase; }
+
+.meinblock__product {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .meinblock__product-Shirt {
+    display: flex; }
+    .meinblock__product-Shirt-foto {
+      margin-right: 20px; }
+
+.meinblock__product-Shirt-foto {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
+  background-position: center;
+  border: none;
+  outline: 1px solid #ffffff; }
+
+.meinblock__product-Shirt-foto:hover {
+  outline-color: black; }
+
+.MangoT-shirt {
+  margin-bottom: 25px;
+  margin-top: 25px;
+  font-size: 13px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #222222; }
+
+.MangoT-shirt-show {
+  display: flex;
+  text-align: center; }
+
+.Color-Red {
+  white-space: nowrap;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #575757; }
+
+.Color-Size {
+  white-space: nowrap;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 300;
+  color: #6f6e6e;
+  padding-left: 3px; }
+
+.meinblock__product-details {
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 400; }
+  .meinblock__product-details li {
+    color: #656565; }
+
+.input-Quantity {
+  width: 54px;
+  height: 30px;
+  text-align: center;
+  border-bottom: 1px solid #838383; }
+
+.delete {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background: #6f6e6e;
+  color: #ffffff; }
+
+.meinblock__shopping {
+  margin-top: 45px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #4a4a4a; }
+  .meinblock__shopping-clear {
+    height: 50px;
+    width: 235px;
+    border: 1px solid #838383;
+    background-color: #ffffff; }
+  .meinblock__shopping-continue {
+    height: 50px;
+    width: 225px;
+    border: 1px solid #838383;
+    background-color: #ffffff; }
+
+.meinblock__checkout {
+  margin-top: 62px;
+  display: flex;
+  justify-content: space-between; }
+  .meinblock__checkout-name {
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #222222; }
+  .meinblock__checkout-adress {
+    margin-top: 20px;
+    height: 45px;
+    width: 355px;
+    background-color: #ffffff;
+    border: 1px solid #eaeaea;
+    font-size: 13px;
+    font-weight: 300;
+    color: #b1b1b1;
+    padding-left: 10px; }
+  .meinblock__checkout-quote {
+    margin-top: 20px;
+    height: 35px;
+    width: 100px;
+    background-color: #ffffff;
+    border: 1px solid #eaeaea;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #4a4a4a;
+    padding-left: 10px; }
+  .meinblock__checkout-enter {
+    line-height: 25px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #000000; }
+  .meinblock__checkout-apply {
+    margin-top: 25px;
+    height: 35px;
+    width: 118px;
+    background-color: #ffffff;
+    padding-left: 10px;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #a4a4a4;
+    border: 1px solid #eaeaea; }
+
+.meinblock_checkout-bill {
+  height: 214px;
+  width: 360px;
+  background-color: #f5f3f3;
+  flex-direction: column;
+  flex-basis: 35px;
+  padding: 45px;
+  line-height: 35px;
+  text-align: right; }
+  .meinblock_checkout-bill-total {
+    font-size: 11px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #a4a4a4; }
+  .meinblock_checkout-bill-grandtotal {
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase; }
+  .meinblock_checkout-bill-grandtotal span {
+    color: #f16d7f; }
+
+.meinblock__checkout-buy {
+  margin-top: 15px;
+  height: 50px;
+  width: 273px;
+  background-color: #f16d7f;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: center;
+  border: none;
+  justify-content: space-between; }
+
+/*# sourceMappingURL=Newstyle.css.map */

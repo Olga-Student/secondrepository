@@ -1,0 +1,183 @@
+@import "Newvariabls";
+
+.header {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-left{
+  display: flex;
+}
+
+.header .__logo {
+  font-size: 27px;
+  line-height: 32px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: $badyColorblack;
+  text-decoration: none;
+}
+
+.header .__logo span {
+  color: $badyColorpink;
+  margin-right: 35px;
+}
+
+.header .__search {
+  align-items: center;
+  overflow: hidden;
+  border: 1px solid $badColorBorder;
+  border-radius: 3px;
+  height: 38px;
+}
+
+.search__browse {
+  font-size: 14px;
+  line-height: 32px;
+  font-weight: 300;
+}
+
+.search__browse i {
+  Text: fa-caret-down;
+  font-family: FontAwesome;
+  font-size: 14px;
+  line-height: 32px;
+  font-weight: 400;
+  color: $badyColorsearch;
+  text-align: center;
+}
+.header .__search input {
+  height: inherit;
+  outline:none;
+  overflow: hidden;
+  border: none;
+  border-left: 1px solid $badColorBorder;
+  border-right: 1px solid $badColorBorder;
+  font-size: 14px;
+  line-height: 32px;
+  font-weight: 300;
+  color: $badyColorsearchgrey;
+}
+.buttonsearch {
+  Text: fa-search;
+  font-family: FontAwesome;
+  font-size: 14px;
+  line-height: 32px;
+  font-weight: 400;
+  color: $badyColorsearchgrey;
+  background: none;
+  border: none;
+}
+
+.buttonsearch i :hover {
+  color: $buttonHovercolor;
+}
+
+.cart {
+  width: 32px;
+  height: 29px;
+  text-align: center;
+}
+
+.cart:hover {
+  color: $buttonHovercolor;
+
+}
+.header .Myaccount {
+  margin-left: 20px;
+  border: none;
+  width: 130px;
+  height: 38px;
+  background-color: $badyColorpink;
+  font-size: 15px;
+  line-height: 32px;
+  font-weight: 400;
+  color: $badyColorwhite;
+  text-align: center;
+}
+
+.header .Myaccount:hover {
+  color: $buttonHovercolor;
+}
+
+.header .Myaccount i {
+  Text: fa-caret-down;
+  font-family: FontAwesome;
+  font-size: 14px;
+  line-height: 32px;
+  font-weight: 400;
+  color: $badyColorwhite;
+  text-align: center;
+}
+.Myaccount i:hover {
+  color: $buttonHovercolor;
+}
+
+.header-line {
+  border-bottom: 1px solid $badColorBorder;
+}
+
+.TopNav {
+  min-height: 51px;
+}
+
+.TopNav >.menu {
+  padding-top: 20px;
+  display: flex;
+  text-transform: uppercase;
+  list-style-type: none;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.TopNav >.menu > li:not(:last-child) {
+  margin-right: 48px;
+}
+.menu li:hover {
+  color: $buttonHovercolor;
+}
+
+.header__button {
+  height: 148px;
+  background-color: $headerbackgraundpink;
+}
+
+.header__new {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__new-arrivals {
+  font-size: 24px;
+  line-height: 20px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: $badyColorpink;
+}
+
+.header__new-navi {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: $badyColorsearch;
+}
+
+.header__new-navi:hover {
+  color: $hoverColorpink;
+}
+
+  .header__new-navi-pink {
+  font-weight: 700;
+  color: $badyColorpink;
+  }
+
+  .header__new-navi-pink:hover {
+    color: $buttonHovercolor;
+  }
+
+
