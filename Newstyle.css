@@ -1,4 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+.shoppinginfo, .meinblock__buyerinfo-Adress, .meinblock__buyerinfo-Method {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #222222; }
+
+.shoppingregister, .meinblock__buyerinfo-Shoppingadres-Register, .meinblock__buyerinfo-Pasword {
+  font-size: 13px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #222222; }
+
+.shoppingtext, .meinblock__buyerinfo-Shoppingadres-Text, .meinblock__buyerinfo-Shoppingadres-Easy, .meinblock__buyerinfo-Requerd {
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #9f9f9f;
+  text-transform: lowercase;
+  text-transform: capitalize; }
+
 .subscribeBlock {
   margin: 0 auto;
   margin-top: 98px;
@@ -119,7 +139,7 @@
   height: 461px;
   display: flex;
   justify-content: space-between;
-  padding-top: 125px; }
+  align-items: center; }
 
 .footerBlock__logocopy {
   width: 427px; }
@@ -207,6 +227,26 @@
   background-color: #f16d7f;
   height: 32px;
   width: 32px; }
+
+.shoppinginfo, .meinblock__buyerinfo-Adress, .meinblock__buyerinfo-Method {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #222222; }
+
+.shoppingregister, .meinblock__buyerinfo-Shoppingadres-Register, .meinblock__buyerinfo-Pasword {
+  font-size: 13px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #222222; }
+
+.shoppingtext, .meinblock__buyerinfo-Shoppingadres-Text, .meinblock__buyerinfo-Shoppingadres-Easy, .meinblock__buyerinfo-Requerd {
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #9f9f9f;
+  text-transform: lowercase;
+  text-transform: capitalize; }
 
 .header {
   height: 100px;
@@ -363,6 +403,46 @@
 
 .header__new-navi-pink:hover {
   color: black; }
+
+.shoppinginfo, .meinblock__buyerinfo-Adress, .meinblock__buyerinfo-Method {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #222222; }
+
+.shoppingregister, .meinblock__buyerinfo-Shoppingadres-Register, .meinblock__buyerinfo-Pasword {
+  font-size: 13px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #222222; }
+
+.shoppingtext, .meinblock__buyerinfo-Shoppingadres-Text, .meinblock__buyerinfo-Shoppingadres-Easy, .meinblock__buyerinfo-Requerd {
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #9f9f9f;
+  text-transform: lowercase;
+  text-transform: capitalize; }
+
+.shoppinginfo, .meinblock__buyerinfo-Adress, .meinblock__buyerinfo-Method {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #222222; }
+
+.shoppingregister, .meinblock__buyerinfo-Shoppingadres-Register, .meinblock__buyerinfo-Pasword {
+  font-size: 13px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #222222; }
+
+.shoppingtext, .meinblock__buyerinfo-Shoppingadres-Text, .meinblock__buyerinfo-Shoppingadres-Easy, .meinblock__buyerinfo-Requerd {
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #9f9f9f;
+  text-transform: lowercase;
+  text-transform: capitalize; }
 
 * {
   padding: 0;
@@ -567,5 +647,310 @@
   text-align: center;
   border: none;
   justify-content: space-between; }
+
+.meinblock__buyerinfo {
+  margin-top: 90px; }
+  .meinblock__buyerinfo-Shoppingadres {
+    display: flex;
+    margin-left: 35px;
+    margin-top: 40px; }
+    .meinblock__buyerinfo-Shoppingadres-Register {
+      width: 580px; }
+    .meinblock__buyerinfo-Shoppingadres-Text {
+      margin-top: 15px;
+      margin-bottom: 30px; }
+    .meinblock__buyerinfo-Shoppingadres-Cseckout {
+      margin-bottom: 15px;
+      font-size: 12px;
+      font-weight: 400;
+      text-transform: uppercase;
+      color: #222222; }
+    .meinblock__buyerinfo-Shoppingadres-Easy {
+      margin-bottom: 15px;
+      color: #6f6e6e; }
+    .meinblock__buyerinfo-Shoppingadres-Button {
+      width: 180px;
+      height: 50px;
+      background-color: #ffffff;
+      border: 1px solid #a4a4a4;
+      text-align: center;
+      font-size: 14px;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: #a4a4a4;
+      margin-bottom: 75px;
+      padding-right: 20px; }
+  .meinblock__buyerinfo-Pasword {
+    width: 392px; }
+    .meinblock__buyerinfo-Pasword label {
+      margin-top: 15px;
+      margin-top: 15px; }
+
+.meinblock__buyerinfo-Requerd {
+  color: red;
+  margin-top: 20px; }
+
+.meinblock__buyerinfo-Method {
+  margin-bottom: 30px;
+  margin-top: 30px; }
+
+em {
+  color: red; }
+
+.email {
+  height: 45px;
+  width: 390px;
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+.Login {
+  margin: 15px 15px 15px 0; }
+
+.mainBlock__WoomenCollechtion {
+  text-align: center; }
+  .mainBlock__WoomenCollechtion-background {
+    margin-top: 10px;
+    height: 777px;
+    background-color: #f7f7f7;
+    background-image: url("../Single page/Foto1.png");
+    background-repeat: no-repeat;
+    border-bottom: 1px solid #a4a4a4;
+    background-position: center; }
+  .mainBlock__WoomenCollechtion-border {
+    height: 730px;
+    width: 1141px;
+    border: 1px solid #a4a4a4;
+    margin-top: -86px;
+    padding-top: 70px;
+    overflow: hidden;
+    background-color: #ffffff; }
+    .mainBlock__WoomenCollechtion-border-Women {
+      font-size: 14px;
+      line-height: 24px;
+      font-weight: 700;
+      color: #f16d7f;
+      margin-bottom: 13px; }
+    .mainBlock__WoomenCollechtion-border-line {
+      margin: 0 auto;
+      border-bottom: 1px solid #a4a4a4;
+      width: 147px; }
+    .mainBlock__WoomenCollechtion-border-linepink {
+      margin: 0 auto;
+      border-bottom: 3px solid #f16d7f;
+      width: 63px;
+      position: relative;
+      margin-bottom: 17px; }
+    .mainBlock__WoomenCollechtion-border-Moschino {
+      font-size: 18px;
+      line-height: 24px;
+      font-weight: 900;
+      text-transform: uppercase;
+      color: #4d4d4d;
+      margin-bottom: 65px; }
+    .mainBlock__WoomenCollechtion-border-Text {
+      margin: 0 auto;
+      width: 621px;
+      font-size: 14px;
+      line-height: 24px;
+      font-weight: 300;
+      color: #5e5e5e;
+      margin-bottom: 30px; }
+  .mainBlock__WoomenCollechtion-aboutmodell {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px; }
+    .mainBlock__WoomenCollechtion-aboutmodell-Material {
+      margin-right: 40px;
+      font-size: 14px;
+      line-height: 24px;
+      font-weight: 700;
+      color: #9f9f9f; }
+      .mainBlock__WoomenCollechtion-aboutmodell-Material span {
+        color: #2f2f2f; }
+    .mainBlock__WoomenCollechtion-aboutmodell-Dezigner {
+      font-size: 14px;
+      line-height: 24px;
+      font-weight: 700;
+      color: #9f9f9f; }
+      .mainBlock__WoomenCollechtion-aboutmodell-Dezigner span {
+        color: #2f2f2f; }
+  .mainBlock__WoomenCollechtion-Prise {
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #f16d7f;
+    margin-bottom: 45px; }
+  .mainBlock__WoomenCollechtion-Hcoose {
+    margin: 0 auto;
+    width: 621px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px; }
+    .mainBlock__WoomenCollechtion-Hcoose-Color {
+      margin-top: 61px;
+      font-size: 14px;
+      line-height: 24px;
+      font-weight: 700;
+      color: #2f2f2f;
+      margin-bottom: 15px; }
+    .mainBlock__WoomenCollechtion-Hcoose-button {
+      width: 144px;
+      height: 35px;
+      background: #ffffff; }
+      .mainBlock__WoomenCollechtion-Hcoose-button i {
+        text-align: right; }
+  .mainBlock__WoomenCollechtion-Cart {
+    margin: 0 auto;
+    width: 621px;
+    height: 55px;
+    background-color: #ffffff;
+    border: 1px solid #f16d7f; }
+    .mainBlock__WoomenCollechtion-Cart i {
+      padding: 22px;
+      font-size: 16px;
+      font-weight: 700;
+      color: #f16d7f;
+      vertical-align: center; }
+
+.SecthinBlock {
+  margin-top: 120px;
+  text-align: center; }
+  .SecthinBlock section {
+    font-size: 24px;
+    line-height: 20px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #4d4d4d; }
+  .SecthinBlock__Woomen {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between; }
+    .SecthinBlock__Woomen-products {
+      height: 364px;
+      width: 263px; }
+      .SecthinBlock__Woomen-products-foto {
+        width: 263px;
+        height: 280px;
+        background-color: #e9e9e9;
+        background-position: inherit;
+        background-repeat: no-repeat; }
+      .SecthinBlock__Woomen-products-product {
+        text-align: left;
+        font-size: 14px;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: #6f6e6e;
+        margin-top: 20px;
+        margin-bottom: 20px; }
+      .SecthinBlock__Woomen-products-prise {
+        text-align: left;
+        font-size: 16px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #f16d7f; }
+
+.meinBlock__choice {
+  display: flex;
+  margin-top: 60px; }
+
+.meinBlock__choice-navi {
+  width: 243px;
+  margin-right: 50px;
+  position: relative;
+  display: inline-block;
+  height: auto; }
+  .meinBlock__choice-navi-category {
+    height: 37px;
+    width: 243px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #6f6e6e;
+    border: none;
+    border-bottom: 1px solid #a4a4a4;
+    border-left: 5px solid #f16d7f;
+    margin-bottom: 20px;
+    text-align: left;
+    padding-left: 12px; }
+  .meinBlock__choice-navi-Content {
+    display: none;
+    position: absolute;
+    min-width: 243px;
+    background-color: #e9e9e9;
+    z-index: 1; }
+    .meinBlock__choice-navi-Content a {
+      text-decoration: none;
+      font-size: 14px;
+      line-height: 33px;
+      font-weight: 400;
+      color: #6f6e6e;
+      display: block;
+      padding-left: 15px; }
+    .meinBlock__choice-navi-Content a:hover {
+      background-color: #a4a4a4; }
+
+.meinBlock__choice-navi:hover .meinBlock__choice-navi-Content {
+  display: block; }
+
+.meinBlock__choice-navi:hover .meinBlock__choice-navi-category {
+  color: #f16d7f; }
+
+.meinBlock__choice-product {
+  width: 100%; }
+  .meinBlock__choice-product-menu {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px; }
+    .meinBlock__choice-product-menu article {
+      font-size: 14px;
+      line-height: 20px;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: #6f6e6e;
+      margin-bottom: 25px; }
+    .meinBlock__choice-product-menu ul {
+      height: 55px;
+      width: 156px;
+      list-style-type: none;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      border: none; }
+      .meinBlock__choice-product-menu ul li {
+        justify-content: space-around;
+        text-align: center;
+        border-left: 1px solid #a4a4a4;
+        border-right: 1px solid #a4a4a4;
+        font-size: 14px;
+        line-height: 26px;
+        font-weight: 400;
+        color: #6f6e6e; }
+      .meinBlock__choice-product-menu ul li:hover {
+        color: #f16d7f; }
+    .meinBlock__choice-product-menu form {
+      height: 55px;
+      width: 255px;
+      display: block;
+      justify-content: space-between;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap; }
+      .meinBlock__choice-product-menu form input {
+        margin-right: 3px;
+        height: 13px;
+        width: 13px;
+        border: #a4a4a4; }
+      .meinBlock__choice-product-menu form Label {
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: #6f6e6e;
+        margin-right: 25px; }
+
+.meinBlock__choice-product-verticalnave {
+  width: 50px;
+  margin-bottom: 50px; }
 
 /*# sourceMappingURL=Newstyle.css.map */

@@ -11,4 +11,25 @@ $badyColorsearch: #838383;
 $footerColorgrey: #898989;
 $headerbackgraundpink: #f8f3f4;
 
+.shoppinginfo {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: $badyColorblack;
+}
+.shoppingregister {
+  font-size: 13px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: $badyColorblack;
+}
+.shoppingtext {
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 400;
+  color: $badyColorgrey;
+  text-transform: lowercase;
+  text-transform: capitalize;
+}
+
 
