@@ -31,6 +31,15 @@
   border: 1px solid $badColorBorder;
   border-radius: 3px;
   height: 38px;
+  select {
+    font-size: 14px;
+    line-height: 32px;
+    font-weight: 300;
+    color: $badyColorsearch;
+    text-align: center;
+    border: none;
+
+  }
 }
 
 .search__browse {
@@ -40,14 +49,13 @@
 }
 
 .search__browse i {
-  Text: fa-caret-down;
-  font-family: FontAwesome;
-  font-size: 14px;
+   font-size: 14px;
   line-height: 32px;
   font-weight: 400;
   color: $badyColorsearch;
   text-align: center;
 }
+
 .header .__search input {
   height: inherit;
   outline:none;
@@ -72,7 +80,7 @@
 }
 
 .buttonsearch i :hover {
-  color: $buttonHovercolor;
+  color: $hoverColorpink;
 }
 
 .cart {
@@ -82,7 +90,7 @@
 }
 
 .cart:hover {
-  color: $buttonHovercolor;
+  color: $hoverColorpink;
 
 }
 .header .Myaccount {
@@ -99,7 +107,7 @@
 }
 
 .header .Myaccount:hover {
-  color: $buttonHovercolor;
+  color: $hoverColorpink;
 }
 
 .header .Myaccount i {
@@ -112,7 +120,7 @@
   text-align: center;
 }
 .Myaccount i:hover {
-  color: $buttonHovercolor;
+  color: $hoverColorpink;
 }
 
 .header-line {
@@ -135,9 +143,9 @@
 
 .TopNav >.menu > li:not(:last-child) {
   margin-right: 48px;
-}
-.menu li:hover {
-  color: $buttonHovercolor;
+  }
+.TopNav >.menu:hover {
+  color: $hoverColorpink;
 }
 
 .header__button {
@@ -177,7 +185,7 @@
   }
 
   .header__new-navi-pink:hover {
-    color: $buttonHovercolor;
+    color: $hoverColorpink;
   }
 
 

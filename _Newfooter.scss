@@ -93,11 +93,13 @@
 }
 
 .buttonmail {
+  overflow: hidden;
   text-align: center;
   margin-top: 35px;
 }
 
 .mail {
+  overflow: hidden;
   height: 46px;
   width: 280px;
   padding-left: 30px;
@@ -114,6 +116,7 @@
 
 
 .subscribe {
+  overflow: hidden;
   height: 46px;
   width: 104px;
   border: none;
@@ -223,17 +226,19 @@
   align-items: center;
   vertical-align: center;
 }
-
-.icon i:hover{
-  color: $buttonHovercolor;
-}
-
 .icon i{
   font-size: 16px;
   line-height: 42px;
   font-weight: 400;
   color: #b2b2b2;
 }
+.icon i:hover{
+  color: $buttonHovercolor;
+  width: 120%;
+  height: 120%;
+}
+
+
 
 .icon-twitter i {
    font-size: 16px;
